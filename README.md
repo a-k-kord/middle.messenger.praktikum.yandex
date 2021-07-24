@@ -1,6 +1,6 @@
 ## Коментарий для ревьюера
-Я из 4-й когорты, где проект назывался по другому и распологается вот здесь #### [mf.messenger.praktikum.yandex](https://github.com/a-k-kord/mf.messenger.praktikum.yandex)
-Все изменения для 4-го спринта загружены туда в соответствующий #### [Sprint 4 PR](https://github.com/a-k-kord/mf.messenger.praktikum.yandex/pull/4)
+Я из 4-й когорты, где проект назывался по другому и распологается вот здесь [mf.messenger.praktikum.yandex](https://github.com/a-k-kord/mf.messenger.praktikum.yandex)
+Все изменения для 4-го спринта загружены туда в соответствующий [Sprint 4 PR](https://github.com/a-k-kord/mf.messenger.praktikum.yandex/pull/4)
 
 
 ## Chat WebApp "Chatter"
