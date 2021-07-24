@@ -1,82 +1,49 @@
-### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
-
-### Откройте pull request в ветку main из ветки, где вы разрабатывали проект, и добавьте ссылку на этот pr в README.md в ветке main. Название pull request может быть любое.
-
-### Например, задания для проектной работы во втором спринте вы делаете в ветке sprint_2. Открываете из неё pull request в ветку main (pr может называться произвольно). Ссылку на этот pr добавляете в README.md в ветке main. После этого на платформе Практикума нажимаете «Проверить задание».
-
-### Также не забудьте проверить, что репозиторий публичный.
----
+## Коментарий для ревьюера
+Я из 4-й когорты, где проект назывался по другому и распологается вот здесь #### [mf.messenger.praktikum.yandex](https://github.com/a-k-kord/mf.messenger.praktikum.yandex)
+Все изменения для 4-го спринта загружены туда в соответствующий #### [Sprint 4 PR](https://github.com/a-k-kord/mf.messenger.praktikum.yandex/pull/4)
 
 
-Даже законченный проект остаётся только заготовкой, пока им не начнут пользоваться. Но сначала пользователь должен понять, зачем ему пользоваться вашим кодом. В этом помогает файл README.
+## Chat WebApp "Chatter"
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c411f49f-311a-494c-9e62-d5956d191ebf/deploy-status)](https://app.netlify.com/sites/chat-akkord/deploys)
 
-README — первое, что прочитает пользователь, когда попадёт в репозиторий на «Гитхабе». Хороший REAMDE отвечает на четыре вопроса:
+Chat webapp written with technologies: Javascript, Typescript, SCSS, HTML, [Eta template engine](https://eta.js.org/), Mocha, Chai, Sinon, JSDOM, ESlint, Stylelint, WebSockets, Husky, Docker for Yandex Praktikum Course.
 
-- Готов ли проект к использованию?
-- В чём его польза?
-- Как установить?
-- Как применять?
+Deployed on Netlify and Heroku.
+#### [Open the Chatter in Netlify](https://chat-akkord.netlify.app)
+#### [Open the Chatter in Heroku](https://chat-ter.herokuapp.com)
 
-## Бейджи
+## Design
+Design is mostly made by Yandex Praktikum team.
+#### [Open design on Figma](https://www.figma.com/file/0pcmyXQ35mcDQsMLJcPMk9/ChatAkkord?node-id=0%3A1)
 
-Быстро понять статус проекта помогают бейджи на «Гитхабе». Иногда разработчики ограничиваются парой бейджев, которые сообщат о статусе тестов кода:
+## Install
+<a name="install"></a>
+<a name="installstart"></a>
+```sh
+npm install
+```
 
-![Бэйджи](https://github.com/yandex-praktikum/mf.messenger.praktikum.yandex.images/blob/master/mf/b.png)
+```sh
+npm run start
+```
 
-Если пользователь увидит ошибку в работе тестов, то поймёт: использовать текущую версию в важном проекте — не лучшая идея.
+Then go to http://localhost:3000
 
-Бейджи помогают похвастаться достижениями: насколько популярен проект, как много разработчиков создавало этот код. Через бейджи можно даже пригласить пользователя в чат:
+## Tests
+<a name="install"></a>
+<a name="installstart"></a>
+```sh
+npm run test
+```
 
-![Версии](https://github.com/yandex-praktikum/mf.messenger.praktikum.yandex.images/blob/master/mf/vers.png)
+## Linter
+<a name="install"></a>
+<a name="installstart"></a>
+```sh
+npm run lint:all
+```
 
-В README **Webpack** строка бейджев подробно рассказывает о покрытии кода тестами. Когда проект протестирован, это вызывает доверие пользователя. Последний бейдж приглашает присоединиться к разработке. 
+## Developers
+<a name="developers"></a>
 
-Другая строка убедит пользователя в стабильности инфраструктуры и популярности проекта. Последний бейдж зовёт в чат проекта.
-
-## Описание
-
-Краткое опишите, какую задачу решает проект. Пользователь не верит обещаниям и не готов читать «полотна» текста. Поэтому в описании достаточно нескольких строк:
-
-![Описание](https://github.com/yandex-praktikum/mf.messenger.praktikum.yandex.images/blob/master/mf/desc.png)
-
-Авторы **React** дробят описание на абзацы и списки — так проще пробежаться глазами по тексту и найти ключевую информацию.
-
-Если у проекта есть сайт, добавьте ссылку в заголовок.
-
-## Установка
-
-Лучше всего пользователя убеждает собственный опыт. Чем быстрее он начнёт пользоваться проектом, тем раньше почувствует пользу. Для этого помогите ему установить приложение: напишите краткую пошаговую инструкцию.
-
-Если проект предназначен для разработчиков, добавьте информацию об установке тестовых версий. Например:
-
-- `npm install` — установка стабильной версии,
-- `npm start` — запуск версии для разработчика,
-- `npm run build:prod` — сборка стабильной версии.
-
-## **Примеры использования**
-
-Хорошо, если сразу после установки пользователь сможет решить свои задачи без изучения проекта. Это особенно верно, если ваш пользователь — не профессиональный разработчик. Но даже профессионал поймёт вас лучше, если показать примеры использования:
-
-![Ссылки](https://github.com/yandex-praktikum/mf.messenger.praktikum.yandex.images/blob/master/mf/link.png)
-
-Для более подробных инструкции добавьте новые разделы или ссылки:
-
-- на документацию,
-- вики проекта,
-- описание API.
-
-В учебном проекте будут полезен раздел с описанием стиля кода и правилами разработки: как работать с ветками, пул-реквестами и релизами.
-
-### **Команда**
-
-Если вы работаете в команде, укажите основных участников: им будет приятно, а новые разработчики охотнее присоединятся к проекту. «Гитхаб» — не просто инструмент, это социальная сеть разработчиков.
-
-![Команда](https://github.com/yandex-praktikum/mf.messenger.praktikum.yandex.images/blob/master/mf/team.png)
-
-### **Примеры README**
-
-- «[Реакт](https://github.com/facebook/react)»,
-- «[Эхо](https://github.com/labstack/echo)»,
-- «[Вебпак](https://github.com/webpack/webpack)»,
-- «[ТДенгине](https://github.com/taosdata/TDengine)»,
-- «[Соул-хантинг](https://github.com/vladpereskokov/soul-hunting/)».
+- [Korotayev Andrey](https://github.com/a-k-kord)
